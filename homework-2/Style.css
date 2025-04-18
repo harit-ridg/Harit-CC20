@@ -1,0 +1,52 @@
+body {
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover; 
+  font-family: "Noto Sans Thai", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+.head {
+  font-size: 60px;
+}
+nav {
+  border: 1px solid white;
+  width: 100%;
+  text-align: end;
+  color: white;
+}
+h1 {
+  text-align: center;
+  height: auto;
+  font-size: 60px;
+
+}
+progress {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* progress .p {
+  display: flex;
+  margin-left: 50%;
+} */
+.progressmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-wrapper {
+  text-align: center;
+}
+.content,
+.content-right {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.content {
+  justify-content: flex-start;
+}
+.content-right {
+  justify-content: flex-end;
+}

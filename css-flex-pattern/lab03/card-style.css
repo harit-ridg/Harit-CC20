@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  height: 460px;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+h4::before { 
+  position: absolute;
+  content: "X";
+  color: black;
+  font-weight: bold;
+  top: 10px;
+  left: 20px;
+  font-size: 25px;
+}
+h4::after { 
+  position: absolute;
+  content: "9";
+  color: black;
+  background-color: red;
+  font-weight: bold;
+  top: 5px;
+  left: 390px;
+  font-size: 25px;
+  border-radius: 60%;
+  width: 30px;
+}

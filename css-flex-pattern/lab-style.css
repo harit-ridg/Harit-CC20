@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: silver;
+}
+.header {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  text-align: center;
+}
+.content *:first-child {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 5%;
+  min-width: 100px;
+  border: 1px solid red;
+}
+.middle {
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 95%;
+min-height: 650px;
+text-align: center;
+}
+footer {
+  text-align: center;
+}

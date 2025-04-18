@@ -1,0 +1,77 @@
+body {
+  background-color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  border: 1px solid black;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 250px;
+}
+.content {
+  border: 2px solid grey;
+  width: 800px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.pinfo {
+  border: 2px solid gray;
+  width: 500px;
+  margin: auto;
+}
+.skills {
+  border: 1px solid black;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+table {
+  border: 1px solid black;
+}
+table,th,td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 700px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* Contact */
+* {
+  box-sizing: border-box;
+}
+form {
+  border : 1px solid lightgray;
+  padding: 32px;
+  width: 600px;
+  border-radius: 8px;
+  background-color: cornsilk;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+input, select, textarea{
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 20px;
+  padding: 8px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+input[type=submit] {
+  border: none;
+  border: 1px solid silver;
+}
+label {
+  width: 100%;
+  color: #555;
+}

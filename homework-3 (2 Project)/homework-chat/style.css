@@ -1,0 +1,101 @@
+header {
+  background-color: darkgray;
+  width: 500px;
+  height: 50px;
+}
+.top p {
+  margin-left: 150px;
+}
+.top img {
+margin-left: 25px;
+border-radius: 60px;
+height: 40px;
+align-items: flex-end;
+margin-top: 5px;
+}
+.sender {
+  width: 40px;
+  height: 40px;
+  border-radius: 60px;
+}
+.chat {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  height: 600px;
+  background-color: honeydew;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 8px 8px 8px silver;
+  border-radius: 10px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.content {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: honeydew;
+}
+.content img {
+  border-radius: 60px;
+}
+.content-right {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: honeydew;
+  }
+.content-right img {
+  border-radius: 60px;
+}
+input {
+  margin-top: 235px;
+  height: 30px;
+  width: 465px;
+  flex: 1;
+  border-radius: 60px;
+  border: none;
+  background-color: cornsilk;
+  text-align: center;
+}
+.fa-paper-plane {
+  align-items: center;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+.fa-paper-plane {
+  font-size: 20px;
+  cursor: pointer;
+}
+.chat-left {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 40px;
+  height: 25px;
+  width: 130px;
+  text-align: center;
+}
+.chat-right {
+  text-align: center;
+  align-items: center;
+    border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 50px;
+  height: 25px;
+  width: 190px;
+  text-align: center;
+}
+.time {
+  color: gray;
+  background-color: none;
+  font-size: small;
+}
